@@ -22,6 +22,7 @@ C:\Users\shamlal\Desktop\projects\papermorph-server\ImageToPdfApi\obj\Debug\net9
 C:\Users\shamlal\Desktop\projects\papermorph-server\ImageToPdfApi\obj\Debug\net9.0\ImageToPdfApi.csproj.CoreCompileInputs.cache
 C:\Users\shamlal\Desktop\projects\papermorph-server\ImageToPdfApi\obj\Debug\net9.0\ImageToPdfApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\shamlal\Desktop\projects\papermorph-server\ImageToPdfApi\obj\Debug\net9.0\ImageToPdfApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shamlal\Desktop\projects\papermorph-server\ImageToPdfApi\obj\Debug\net9.0\ImageToPdfApi.sourcelink.json
 C:\Users\shamlal\Desktop\projects\papermorph-server\ImageToPdfApi\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\shamlal\Desktop\projects\papermorph-server\ImageToPdfApi\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\shamlal\Desktop\projects\papermorph-server\ImageToPdfApi\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
