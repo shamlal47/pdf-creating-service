@@ -19,7 +19,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Add routing middleware
+app.UseRouting();
 
-   
+// Add endpoint middleware
+app.MapControllers();
 
 app.Run();

@@ -3,6 +3,7 @@ using PdfSharpCore.Drawing;
 using PdfSharpCore.Pdf;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp.Formats.Png;
 
 namespace ImageToPdfApi.Controllers
 {
@@ -36,11 +37,11 @@ namespace ImageToPdfApi.Controllers
                 memoryStream.Position = 0;
 
                 // Load image using ImageSharp
-                using var img = await Image.LoadAsync<Rgba32>(memoryStream);
+                using var img = Image.Load<Rgba32>(memoryStream);
 
                 // Convert to bitmap for PdfSharpCore
                 using var ms = new MemoryStream();
-                await img.SaveAsPngAsync(ms);
+                img.SaveAsPng(ms);
                 ms.Position = 0;
 
                 var document = new PdfDocument();
